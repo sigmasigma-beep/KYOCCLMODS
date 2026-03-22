@@ -8,7 +8,7 @@ setlocal EnableDelayedExpansion
 set "MOD_FOLDER=%USERPROFILE%\Documents\MFKYOCCL"
 set "REPO_OWNER=KeiranGamingTV"
 set "REPO_NAME=Batch-Multitool"
-set "REPO_PATH=multitool\files"  :: root
+set "REPO_PATH=multitool/files"
 
 cls
 echo(
@@ -45,7 +45,7 @@ if "!bat_list!"=="" (
 
 cls
 echo Available modules:
-echo ────────────────────────────────────────────
+
 set count=0
 set "mod_list="
 for %%n in (!bat_list!) do (
@@ -72,7 +72,7 @@ for %%n in (!mod_list!) do (
 
 cls
 echo Selected: !chosen!
-echo ────────────────────────────────────────────
+
 
 :: Show description (.txt file if exists)
 set "txt_url=https://raw.githubusercontent.com/%REPO_OWNER%/%REPO_NAME%/main/!chosen!.txt"
