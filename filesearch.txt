@@ -1,0 +1,1 @@
+Searches for certain extensions in a folder path  
